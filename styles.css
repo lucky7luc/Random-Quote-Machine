@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*@function random-color() {
+    $r: random(255); // Zufälliger Rot-Wert
+    $g: random(255); // Zufälliger Grün-Wert
+    $b: random(255); // Zufälliger Blau-Wert
+    @return rgb($r, $g, $b);
+  }
+  body {
+    background-color: random-color();
+  }*/
+#quote-box {
+  height: 250px;
+  max-width: 600px;
+  margin: 20vh auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px;
+  display: table;
+}
+#quote-box #text {
+  font-size: 3rem;
+  margin: 0 auto 1em auto;
+}
+#quote-box .row {
+  margin: 2em auto 0 auto;
+}
+#quote-box i {
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+#quote-box #author {
+  font-size: 1.5rem;
+  position: relative;
+  top: 10px;
+}/*# sourceMappingURL=styles.css.map */
